@@ -6,7 +6,7 @@ const Stripe = require('stripe');
 const app = express();
 
 const uri = 'mongodb+srv://nagarjuna23:SurNag04@watch23.7yjhofo.mongodb.net/Movieslist?retryWrites=true&w=majority&appName=watch23';
-const stripe = Stripe('Use your Stripe secret key here'); 
+const stripe = Stripe('Use your key here'); 
 app.use(cors());
 app.use(bodyParser.json()); 
 
